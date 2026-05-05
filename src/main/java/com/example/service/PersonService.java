@@ -46,6 +46,14 @@ public class PersonService {
 		p.setFirstName("docker");
 		p.setLastName("Mamdouh");
 		persons.add(p);
+
+		p = new Person();
+		p.setId("3");
+		p.setAge(20);
+		p.setFirstName("jenkins");
+		p.setLastName("fcb");
+		persons.add(p);
+		
 		
 	}
 	public Person getPerson(String id) {
